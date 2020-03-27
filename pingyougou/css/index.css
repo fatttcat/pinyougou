@@ -1,0 +1,268 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    width: 721px;
+    height: 455px;
+    background-color:black;
+    position: relative;
+    overflow: hidden;
+}
+.focus ul {
+    width: 600%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.focus li{
+    float: left;
+}
+.zuo,
+.you {
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 1;
+    display: none;
+}
+.you {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    width: 8px;
+    height: 8px;
+    float: left;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bgc{
+    background-color: #fff;
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news_h {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.news_h a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news_b {
+    padding: 10px 0 0 15px;
+}
+.news_b li {
+    height: 23px;
+}
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+
+.ls_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat -17px -16px;
+}
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+.recommend_left {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recommend_left img {
+    margin: 30px 0 10px 0;
+}
+.recommend_left h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.recommend_right {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recommend_right li{
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    float: left;
+    margin-top: 10px;
+}
+.recommend_right .last {
+    border-right: 0;
+}
+
+.box_h {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box_h h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+}
+.box_h .tab_list {
+    float: right;
+}
+.box_h .tab_list li {
+    float: left;
+}
+.box_h .tab_list li a {
+    margin: 0 15px;
+}
+.box_b {
+    height: 360px;
+}
+.box_b img {
+    transition: all 0.2s;
+
+}
+.box_b img:hover {
+    margin-left: 8px;
+}
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+    height: 360px;
+}
+.w329 {
+    width: 329px;
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab_box {
+    height: 360px;
+}
+.tab_box li {
+    float: left;
+    overflow: hidden;
+}
+.w329 ul {
+    position: absolute;
+    left: 0;
+    width: 987px;
+    height: 360px;    
+    
+}
+.w329 ul li{
+    float: left;
+
+}
+.newcircle {
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+}
+.newcircle li {
+    width: 8px;
+    height: 8px;
+    float: left;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tab_box_item {
+    border-bottom: 1px solid #ccc;
+}
+.tab_box_list {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.tab_box_list li{
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+.fixedtab {
+    width: 66px;
+    position: fixed; 
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+}
+.fixedtab li {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.firstli {
+    background-color: #c81623;
+    color: #fff;
+}
